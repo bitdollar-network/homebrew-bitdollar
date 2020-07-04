@@ -8,9 +8,6 @@ class Dollar < Formula
   end
 
   depends_on :macos => :el_capitan
-  depends_on :xcode => :build
-
-  depends_on "cmake" => :build
   depends_on "boost" => "c++11"
 
   def install
